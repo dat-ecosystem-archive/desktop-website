@@ -1,0 +1,3 @@
+Dat Desktop is a new way to share data with friends & colleagues. Using the
+peer to peer (p2p) Hyperdrive protocol, it makes sharing folders on your
+computer secure and convenient. No centralized servers needed.
