@@ -32,12 +32,12 @@ function mainView () {
 
 function Content () {
   return html`
-    <section class="flex justify-center f2">
-      <div class="cf mt5 mw7 w-100">
+    <section class="flex justify-center f3 f2-ns">
+      <div class="cf mt4 mt5-ns mh4 mh0-l mw7 w-100">
         <p class="fl">
           Dat Desktop
         </p>
-        <p class="fr mw6 pl4">
+        <p class="fr mw6 pl4-ns">
           Share files from your computer to anywhere on the planet, securely and
           fast.
         </p>
@@ -48,18 +48,18 @@ function Content () {
 
 function Download () {
   return html`
-    <section class="flex justify-between f2 f3-ns mt6 ph4 ph5-l mw8">
-      <a class="white no-underline link" href="#">Download for MacOS</a>
-      <a class="white no-underline link" href="#">Download for Windows (soon)</a>
-      <a class="white no-underline link" href="#">Download for Linux (soon)</a>
+    <section class="flex flex-column flex-row-ns justify-between f5 f3-ns mt4 mt6-ns ph4 ph5-l mw8">
+      <a class="white no-underline link lh-copy mt1" href="#">Download for MacOS</a>
+      <a class="white no-underline link lh-copy mt1" href="#">Download for Windows (soon)</a>
+      <a class="white no-underline link lh-copy mt1" href="#">Download for Linux (soon)</a>
     </section>
   `
 }
 
 function Footer () {
   return html`
-    <section class="flex justify-center f2">
-      <div class="cf mt6 mw7 w-100">
+    <section class="flex justify-center f3 f2-ns">
+      <div class="cf mt5 mt6-ns mh4 mh0-l mw7 w-100">
         <p class="fl">
           Built by
           <a href="https://datproject.org" class="white no-underline">
